@@ -1,0 +1,28 @@
+① $(document).ready(function(){ ~ });
+
+  全てを読み込んでから関数をうごかすということ
+
+② $('#btn-evaluation').click(function() { ~ });
+
+  場所を指定してクリックした時の関数をつくっている。今回はランクボタンをクリックした時の挙動
+
+③ $('#national_language, #english, #mathematics, #science, #society').change(function() { ~ });
+
+  科目に変化があった時、関数を読み込むということ
+
+④ $('#national_language').val()
+
+  .valは入力されたデータの取得、国語の点数を取得
+
+⑤ Number()
+
+  documentのようにあらかじめ作られたオブジェクト？あらかじめ機能が決められておりそれを引き出すための記述。今回は取得したデータを数字に直している？
+
+
+⑥ $("#sum_indicate").text(sum);
+
+  合計点を表示するための記述 .textは要素にテキストを追加する。()なら取得
+
+⑦ .append
+
+  指定した要素の最後に引数で入力したテキストの追加
